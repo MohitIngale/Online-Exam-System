@@ -30,7 +30,7 @@ public class Help extends JPanel {
 		txtrAboutHelpLine.setLineWrap(true);
 		txtrAboutHelpLine.setFont(new Font("Lucida Bright", Font.BOLD, 15));
 		txtrAboutHelpLine.setRows(30);
-		txtrAboutHelpLine.setText("HELLO!!!\r\n\r\nThis is an ONLINE EXAMINATION SYSTEM in which admin can conduct  an online examination of users .Users have to registered himself/herself first than they must be verified by admin after that he/she can give the examination.\r\nThis project consists of many swing components like JPanel,Jframe,etc.\r\n\n\n\n\n\r\nProject Made by :\r\n\n Mohammed Arshad(B.E IInd Year)\r\n\r\r\n");
+		txtrAboutHelpLine.setText("Hello,\r\nThis is an ONLINE EXAMINATION SYSTEM in which admin can conduct  an online examination of users .Users have to registered himself/herself first than they must be verified by admin after that he/she can give the examination.");
 		txtrAboutHelpLine.setBounds(177, 91, 637, 342);
 		add(txtrAboutHelpLine);
 		
@@ -38,10 +38,10 @@ public class Help extends JPanel {
 		separator.setBounds(250, 78, 491, 2);
 		add(separator);
 		
-		JLabel lblNewLabel_1 = new JLabel("O.E.S");
+		JLabel lblNewLabel_1 = new JLabel("HELP");
 		lblNewLabel_1.setForeground(new Color(128, 0, 0));
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_1.setFont(new Font("Times New Roman", Font.BOLD, 36));
+		lblNewLabel_1.setFont(new Font("Times New Roman", Font.BOLD, 26));
 		lblNewLabel_1.setBounds(415, 24, 160, 47);
 		add(lblNewLabel_1);
 		

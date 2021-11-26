@@ -14,13 +14,13 @@ import login.LoginPanel;
 
 public class Panel1 extends JPanel {
 
-	/**
-	 * Create the panel.
-	 */
+	public JButton btnNext;
+	public JButton btnNewButton;
+	
 	public Panel1() {
 		setLayout(null);
 		
-		JButton btnNext = new JButton("NEXT");
+		btnNext = new JButton("NEXT");
 		btnNext.setFocusable(false);
 		btnNext.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -33,7 +33,7 @@ public class Panel1 extends JPanel {
 		btnNext.setBounds(892, 511, 89, 36);
 		add(btnNext);
 		
-		JButton btnNewButton = new JButton("HELP");
+		btnNewButton = new JButton("HELP");
 		btnNewButton.setFocusable(false);
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -47,7 +47,7 @@ public class Panel1 extends JPanel {
 		add(btnNewButton);
 		
 		JLabel lblOnlineExamination = new JLabel("ONLINE EXAMINATION");
-		lblOnlineExamination.setForeground(new Color(240, 255, 240));
+		lblOnlineExamination.setForeground(new Color(0, 0, 0));
 		lblOnlineExamination.setBackground(Color.GREEN);
 		lblOnlineExamination.setHorizontalAlignment(SwingConstants.CENTER);
 		lblOnlineExamination.setFont(new Font("Lucida Handwriting", Font.BOLD, 41));
@@ -55,7 +55,7 @@ public class Panel1 extends JPanel {
 		add(lblOnlineExamination);
 		
 		JLabel lblSystem = new JLabel("SYSTEM");
-		lblSystem.setForeground(new Color(240, 255, 240));
+		lblSystem.setForeground(new Color(0,0,0));
 		lblSystem.setBackground(new Color(220, 20, 60));
 		lblSystem.setHorizontalAlignment(SwingConstants.CENTER);
 		lblSystem.setFont(new Font("Lucida Handwriting", Font.BOLD, 41));

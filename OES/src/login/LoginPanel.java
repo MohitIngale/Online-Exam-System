@@ -16,7 +16,9 @@ import main.MainFrame;
 import main.Panel1;
 
 public class LoginPanel extends JPanel {
-	private JButton btnUser;
+	public JButton btnUser;
+	public JButton btnNewButton;
+	public JButton btnAdmin;
 
 	/**
 	 * Create the panel.
@@ -24,7 +26,7 @@ public class LoginPanel extends JPanel {
 	public LoginPanel() {
 		setLayout(null);
 		
-		JButton btnNewButton = new JButton("BACK");
+		btnNewButton = new JButton("BACK");
 		btnNewButton.setFocusable(false);
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -32,7 +34,7 @@ public class LoginPanel extends JPanel {
 			}
 		});
 		
-		JButton btnAdmin = new JButton("ADMIN");
+		btnAdmin = new JButton("ADMIN");
 		btnAdmin.setFocusable(false);
 		btnAdmin.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {

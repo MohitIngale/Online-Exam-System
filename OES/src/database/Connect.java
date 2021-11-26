@@ -9,7 +9,7 @@ public class Connect {
 	public Connect(String username,String password) {
 		
 		try{
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			System.out.println("Driver Loaded");
 			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/"+"oes",username,password);
 			System.out.println("Connection Established.");

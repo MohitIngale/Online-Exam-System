@@ -124,7 +124,7 @@ public class RegistrationForm extends JPanel implements ActionListener {
 			}
 		});
 		submit.setForeground(new Color(0, 0, 0));
-		submit.setFont(new Font("Sakkal Majalla", Font.BOLD, 32));
+		submit.setFont(new Font("Sakkal Majalla", Font.BOLD, 24));
 		submit.setBounds(477, 470, 127, 35);
 		add(submit);
 		
@@ -135,7 +135,7 @@ public class RegistrationForm extends JPanel implements ActionListener {
 				MainFrame.AddPanel(new RegistrationForm());
 			}
 		});
-		reset.setFont(new Font("Sakkal Majalla", Font.BOLD, 32));
+		reset.setFont(new Font("Sakkal Majalla", Font.BOLD, 24));
 		reset.setBounds(295, 470, 116, 35);
 		add(reset);
 		
@@ -144,7 +144,7 @@ public class RegistrationForm extends JPanel implements ActionListener {
 		add(ADDRESS);
 		
 		JLabel lblAddress = new JLabel("ADDRESS");
-		lblAddress.setForeground(new Color(240, 255, 255));
+		lblAddress.setForeground(new Color(51,0,0));
 		lblAddress.setFont(new Font("Simplified Arabic Fixed", Font.BOLD, 13));
 		lblAddress.setBounds(181, 339, 85, 26);
 		add(lblAddress);
@@ -156,7 +156,7 @@ public class RegistrationForm extends JPanel implements ActionListener {
 		add(COLLEGE);
 		
 		JLabel lblCollege = new JLabel("COLLEGE");
-		lblCollege.setForeground(new Color(240, 255, 255));
+		lblCollege.setForeground(new Color(51,0,0));
 		lblCollege.setFont(new Font("Simplified Arabic Fixed", Font.BOLD, 13));
 		lblCollege.setBounds(181, 302, 85, 26);
 		add(lblCollege);
@@ -228,7 +228,7 @@ public class RegistrationForm extends JPanel implements ActionListener {
 		
 		
 		JLabel label = new JLabel("MOBILE NO.");
-		label.setForeground(new Color(240, 255, 255));
+		label.setForeground(new Color(51,0,0));
 		label.setFont(new Font("Simplified Arabic Fixed", Font.BOLD, 13));
 		label.setBounds(522, 192, 99, 26);
 		add(label);
@@ -240,7 +240,7 @@ public class RegistrationForm extends JPanel implements ActionListener {
 		add(MOBILE);
 		
 		JLabel lblDob = new JLabel("D.O.B");
-		lblDob.setForeground(new Color(240, 255, 255));
+		lblDob.setForeground(new Color(51,0,0));
 		lblDob.setFont(new Font("Simplified Arabic Fixed", Font.BOLD, 13));
 		lblDob.setBounds(181, 265, 85, 26);
 		add(lblDob);
@@ -252,14 +252,14 @@ public class RegistrationForm extends JPanel implements ActionListener {
 		add(EMAIL);
 		
 		JLabel lblEmail = new JLabel("E-MAIL");
-		lblEmail.setForeground(new Color(240, 255, 255));
+		lblEmail.setForeground(new Color(51,0,0));
 		lblEmail.setFont(new Font("Simplified Arabic Fixed", Font.BOLD, 13));
 		lblEmail.setBounds(181, 228, 85, 26);
 		add(lblEmail);
 		
 		JRadioButton other = new JRadioButton("OTHER");
 		other.setOpaque(false);
-		other.setForeground(new Color(245, 222, 179));
+		other.setForeground(new Color(51,0,0));
 		other.setFont(new Font("SimSun-ExtB", Font.BOLD, 13));
 		other.setBounds(413, 193, 73, 23);
 		add(other);
@@ -267,7 +267,7 @@ public class RegistrationForm extends JPanel implements ActionListener {
 		
 		JRadioButton female = new JRadioButton("FEMALE");
 		female.setOpaque(false);
-		female.setForeground(new Color(245, 222, 179));
+		female.setForeground(new Color(51,0,0));
 		female.setFont(new Font("SimSun-ExtB", Font.BOLD, 13));
 		female.setBounds(338, 193, 73, 23);
 		add(female);
@@ -275,7 +275,7 @@ public class RegistrationForm extends JPanel implements ActionListener {
 		
 		JRadioButton male = new JRadioButton("MALE");
 		male.setFont(new Font("SimSun-ExtB", Font.BOLD, 13));
-		male.setForeground(new Color(245, 222, 179));
+		male.setForeground(new Color(51,0,0));
 		male.setOpaque(false);
 		male.setBounds(276, 193, 60, 23);
 		add(male);
@@ -287,7 +287,7 @@ public class RegistrationForm extends JPanel implements ActionListener {
 		bg.add(other);
 		
 		JLabel lblGender = new JLabel("GENDER");
-		lblGender.setForeground(new Color(240, 255, 255));
+		lblGender.setForeground(new Color(51,0,0));
 		lblGender.setFont(new Font("Simplified Arabic Fixed", Font.BOLD, 13));
 		lblGender.setBounds(181, 191, 85, 26);
 		add(lblGender);
@@ -311,7 +311,7 @@ public class RegistrationForm extends JPanel implements ActionListener {
 		add(FIRST);
 		
 		JLabel lblName = new JLabel("NAME");
-		lblName.setForeground(new Color(240, 255, 255));
+		lblName.setForeground(new Color(51,0,0));
 		lblName.setFont(new Font("Simplified Arabic Fixed", Font.BOLD, 13));
 		lblName.setBounds(181, 154, 85, 26);
 		add(lblName);
@@ -334,7 +334,7 @@ public class RegistrationForm extends JPanel implements ActionListener {
 		USERNAME.setColumns(10);
 		
 		JLabel lblUsername = new JLabel("USERNAME");
-		lblUsername.setForeground(new Color(240, 255, 255));
+		lblUsername.setForeground(new Color(51,0,0));
 		lblUsername.setFont(new Font("Simplified Arabic Fixed", Font.BOLD, 13));
 		lblUsername.setBounds(181, 117, 85, 26);
 		add(lblUsername);
@@ -360,7 +360,7 @@ public class RegistrationForm extends JPanel implements ActionListener {
 		add(lblOnlineExamination);
 		
 		JLabel lblPassword = new JLabel("PASSWORD");
-		lblPassword.setForeground(new Color(240, 255, 255));
+		lblPassword.setForeground(new Color(51,0,0));
 		lblPassword.setFont(new Font("Simplified Arabic Fixed", Font.BOLD, 13));
 		lblPassword.setBounds(522, 117, 85, 26);
 		add(lblPassword);

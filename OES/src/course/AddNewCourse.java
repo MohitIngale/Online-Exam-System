@@ -18,7 +18,7 @@ import javax.swing.SwingConstants;
 import javax.swing.border.LineBorder;
 import main.MainFrame;
 import javax.swing.JTextField;
-import com.mysql.jdbc.PreparedStatement;
+import java.sql.*;
 import database.Connect;
 
 public class AddNewCourse extends JPanel implements FocusListener {

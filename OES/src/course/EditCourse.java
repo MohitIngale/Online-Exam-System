@@ -24,7 +24,7 @@ import javax.swing.JTextField;
 import javax.swing.JTextArea;
 import javax.swing.JScrollPane;
 import javax.swing.JCheckBox;
-import com.mysql.jdbc.PreparedStatement;
+import java.sql.*;
 import database.Connect;
 
 public class EditCourse extends JPanel implements ItemListener{

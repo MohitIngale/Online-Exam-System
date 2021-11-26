@@ -2,7 +2,7 @@ package database;
 
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
-import com.mysql.jdbc.PreparedStatement;
+import java.sql.*;
 import user.RegistrationForm;
 
 public class FormData {

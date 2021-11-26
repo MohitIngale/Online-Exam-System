@@ -31,8 +31,10 @@ import javax.swing.JPasswordField;
 import java.awt.SystemColor;
 
 public class UserLogin extends JPanel implements FocusListener{
-	private JTextField txtUsername;
-	private JPasswordField txtPassword;
+	public JTextField txtUsername;
+	public JPasswordField txtPassword;
+	public JButton btnForgotPassword;
+	public JButton btnLogin;
 
 	Connect c=new Connect("root","");
 	/**
@@ -94,7 +96,7 @@ public class UserLogin extends JPanel implements FocusListener{
 			}
 		}).start();
 		
-		JButton btnForgotPassword = new JButton("Forget Password");
+		btnForgotPassword = new JButton("Forget Password");
 		btnForgotPassword.setToolTipText("Forget Password");
 		btnForgotPassword.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -128,7 +130,7 @@ public class UserLogin extends JPanel implements FocusListener{
 		btnRegisterNow.setBounds(483, 377, 133, 29);
 		add(btnRegisterNow);
 		
-		JButton btnLogin = new JButton("LOGIN");
+		btnLogin = new JButton("LOGIN");
 		btnLogin.setToolTipText("LOGIN");
 		btnLogin.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {

@@ -112,7 +112,7 @@ public class UserResult {
 		p.add(label);
 		
 		JLabel lblUsername = new JLabel("Username : ");
-		lblUsername.setFont(new Font("Times New Roman", Font.BOLD, 18));
+		lblUsername.setFont(new Font("Times New Roman", Font.BOLD, 16));
 		lblUsername.setBounds(701, 70, 92, 28);
 		p.add(lblUsername);
 		
